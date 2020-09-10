@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
  bindkey  "^[[H"   beginning-of-line
  bindkey  "^[[F"   end-of-line
  bindkey  "^[[3~"  delete-char
+ setopt nonomatch
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
